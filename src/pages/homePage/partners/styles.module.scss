@@ -1,0 +1,46 @@
+.partners {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  .title {
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .item {
+      max-width: 200px;
+      max-height: 250px;
+      margin-right: 10px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .partners {
+    max-width: 1280px;
+    .title {
+      font-size: 45px;
+      line-height: 75px;
+    }
+
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .item {
+        max-width: 250px;
+        max-height: 250px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+@import '../../../sourses/styles/variables.scss';
+
+.contactInfo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+
+  .wripper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-bottom: 20px;
+
+    .scheduleBox {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .phonesBox {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .emailBox {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .subtitle {
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 500;
+      text-shadow: $textShadow;
+      text-align: center;
+    }
+    .text {
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000000;
+    }
+  }
+
+  .link {
+    margin-bottom: 0;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+
+    &:hover {
+      color: $brandColor;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .contactInfo {
+    .wripper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .subtitle {
+      text-align: left;
+    }
+  }
+}

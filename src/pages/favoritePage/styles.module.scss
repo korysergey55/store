@@ -1,0 +1,25 @@
+@import '../../sourses/styles/variables.scss';
+.title {
+  display: block;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: $brandColor;
+}
+.subtitle {
+  display: block;
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+}

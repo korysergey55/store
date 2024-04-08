@@ -1,0 +1,69 @@
+@import '../../sourses/styles/variables.scss';
+
+.contactPage {
+  padding-top: 10px;
+  background-color: #e7e7e7;
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 7px;
+
+    .title {
+      margin-bottom: 0;
+      font-size: 35px;
+      text-align: center;
+      font-weight: 650;
+      text-shadow: $textShadow;
+      color: $brandColor;
+      color: #191a1b;
+    }
+
+    .wripper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      padding: 15px;
+
+      .map {
+        width: 100%;
+        min-height: 400px;
+        background-color: #f6fafb;
+        background-image: url(../../sourses/images/contactPage/Map.png);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contactPage {
+    padding-top: 10px;
+
+    .container {
+      .title {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 650;
+        text-shadow: $textShadow;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contactPage {
+    padding-top: 20px;
+    .container {
+      max-width: 1600px;
+      .wripper {
+        flex-direction: row;
+        .map {
+          max-width: 700px;
+        }
+      }
+    }
+  }
+}

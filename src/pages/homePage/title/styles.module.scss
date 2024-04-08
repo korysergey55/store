@@ -1,0 +1,63 @@
+@import '../../../sourses/styles/variables.scss';
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  .logoWripper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+    .logoText {
+      font-size: 35px;
+      font-weight: 700;
+      color: $brandColor;
+      margin-bottom: 0;
+    }
+  }
+  .title {
+    margin-bottom: 0;
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 7px;
+    color: $brandColor;
+  }
+  .text {
+    font-family: Barlow;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: center;
+    color: #9fcb22;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    .logoWripper {
+      margin-bottom: 20px;
+      .logo {
+        font-size: 40px;
+      }
+      .logoText {
+        font-size: 45px;
+      }
+    }
+    .title {
+      font-size: 50px;
+    }
+    .text {
+      font-size: 28px;
+      line-height: 37px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@import '../../sourses/styles/variables.scss';
+
+.homePage {
+  padding-top: 20px;
+
+  .heroTitle {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+  }
+
+  .container {
+    display: block;
+    width: 100%;
+    padding: 0 15px 20px 15px;
+    margin: 0 auto;
+
+    .title {
+      display: block;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: $brandColor;
+    }
+    .subtitle {
+      margin: 20px 0 0 0;
+      font-size: 18px;
+      font-weight: 650;
+      text-align: center;
+      color: #abdf1d;
+    }
+    .wripper {
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .homePage {
+    .baner {
+      height: 330px;
+
+      .heroTitle {
+        font-size: 30px;
+        font-weight: 600;
+      }
+    }
+    .container {
+      max-width: 1600px;
+      padding: 40px 15px;
+
+      .title {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 75px;
+      }
+      .subtitle {
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: 650;
+      }
+    }
+  }
+}

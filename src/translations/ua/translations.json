@@ -1,0 +1,189 @@
+{
+  "header": {
+    "main_page": "Головна",
+    "goods": "Товари",
+    "contacts": "Контакти",
+    "admin_panel": "Панель Адміністратора",
+    "search": "Пошук",
+    "search_product": "Пошук товару"
+  },
+  "home": {
+    "most_popular_products": "Найпопулярніші товари",
+    "buyers_recommend": "Покупці рекомендують",
+    "recommended_products": "Рекомендовані продукти",
+    "baner": {
+      "sold": "Продано",
+      "buy": "Купити",
+      "popular_and_trending_products": "Популярні та трендові продукти"
+    }
+  },
+  "title": {
+    "online_products_store": "Інтернет магазин продуктових товарів"
+  },
+  "feachers": {
+    "european_brands_and_perfect_quality": "Європейські бренди та ідеальна якість",
+    "we_work_directly_with_suppliers_from_europe": "Ми працюємо напряму з постачальниками з Європи",
+    "the_highest_quality_of_delivered_products": "Найвища якість продукції, що поставляється",
+    "buy": "Купити"
+  },
+  "aboutUs": {
+    "about_us": "Про Нас",
+    "we_provide_you_the_best_experience": "Ми надаємо вам найкращий досвід",
+    "description": "Наша компанія прагне пропонувати продукти, яким люди можуть довіряти. Ми пропонуємо продукти харчування, рецепти та індивідуальні рішення для широкого кола сегментів, включаючи ресторани та спеціалізовані кав'ярні, школи, торгові точки та мікроринки, а також доставка додому по всій Україні.",
+    "description-2": "Наша компанія прагне пропонувати продукти, яким люди можуть довіряти. Ми пропонуємо продукти харчування, рецепти та індивідуальні рішення для широкого кола сегментів, включаючи ресторани та спеціалізовані кав'ярні, школи, торгові точки та мікроринки, а також доставка додому по всій Україні.",
+    "to_shop": "В Магазин"
+  },
+  "differences": {
+    "why_choose_us": "Чому обирають нас",
+    "quality_products": "Якісна продукція",
+    "we_provide_only_certified_products": "Ми пропонуємо тільки сертифіковану продукцію",
+    "online_order": "Онлайн замовлення",
+    "fast_ordering_and_same_day_shipping": "Швидке замовлення та відправка в той же день",
+    "fast_delivery": "Швидка доставка",
+    "sending_goods_within_an_hour_after_ordering": "Sending goods within an hour after ordering",
+    "24_7_service": "24/7 Сервіс",
+    "our_service_works_around_the_clock": "Наш сервіс працює цілодобово",
+    "to_shop": "В Магазин"
+  },
+  "partners": {
+    "our_partners": "Наші партнеры"
+  },
+  "subscribe_Form": {
+    "subscribe_and_get_150_uan_on_purchases": "Підпишіться та отримуйте 150 грн на покупки",
+    "enter_yours_email": "Enter Yours email",
+    "subscribe": "Підписатися"
+  },
+  "productsPage": {
+    "category_of_goods": "Категорії товарів",
+    "search_product": "Пошук товару",
+    "search": "Пошук",
+    "filters": {
+      "filter": "Фільтри",
+      "sort_by_name": "Сортувати за назвою",
+      "sort_by_price": "Сортувати за ціною",
+      "sort_by_brand": "Сортувати за брендом",
+      "price": "Ціна",
+      "from": "від",
+      "to": "до",
+      "uan": "грн",
+      "brands": "Бренди",
+      "country_of_manufacture": "Країна виробник",
+      "packaging": "Упаковка",
+      "apply": "Застосувати"
+    },
+    "productList": {
+      "there_are_no_products_for_this_search": "Немає продуктів по цього пошуку",
+      "there_are_no_products": "Немає продуктів"
+    },
+    "productItem": {
+      "uan": "грн",
+      "buy": "Купити"
+    }
+  },
+  "productDatailsPage": {
+    "go_beck": "Назад",
+    "code_of_product": "Код продукта",
+    "rating_scale": "Рейтинг",
+    "manufacturer": "Виробник",
+    "weight": "Вага",
+    "uan": "грн",
+    "add_to_cart": "В корзину",
+    "description": "Опис",
+    "additional_information": "Інформація",
+    "reviews": "Відгуки",
+    "viewed_products": "Переглянуті товари"
+  },
+  "contactPage": {
+    "directionServiseForm": {
+      "build_route": "Побудувати маршрут",
+      "enter_location": "введіть локацію"
+    },
+    "reach_us": "Контакти",
+    "contactInfo": {
+      "schedule": "Розклад",
+      "phones": "Телефони",
+      "email": "Почта",
+      "call": "Позвонити",
+      "mon_fri": "пн-пт",
+      "sat": "сб",
+      "sun": "нд",
+      "day_off": "вихідний"
+    }
+  },
+  "cart": {
+    "cart": "Корзина",
+    "uan": "грн",
+    "make_order": "Зробити замовлення",
+    "cart_is_empty": "Ваша корзина пуста"
+  },
+  "orderPage": {
+    "making_order": "Оформлення замовлення",
+    "create_order": "Оформити замовлення",
+    "orderForm": {
+      "your_order": "Ваше замовлення",
+      "total_price": "Загальна вартість",
+      "create_order": "Оформити замовлення",
+      "contact_information": "Контактна інформація",
+      "name": "Ім´я",
+      "phone": "Телефон",
+      "comments": "Коментар",
+      "email": "Почта",
+      "delivery": "Доставка",
+      "city": "Місто",
+      "express_delivery": "Курьєрська доставка",
+      "new_mail": "Нова пошта",
+      "pickup_from_the_store": "Забрати з магазину",
+      "paymant": "Оплата",
+      "payment_upon_receipt": "Оплата при отриманні",
+      "card_payment": "Оплата на катру",
+      "pay_now": "Оплатити зараз",
+      "is_required": "Обовязкове поле",
+      "enter_yours_name_please": "Введіть ваше ім'я будь ласка",
+      "enter_yours_phone_number_please": "Введіть ваш номер телефона будь ласка",
+      "enter_yours_city_please": "Введіть ваше місто будь ласка",
+      "enter_yours_email_please": "Введіть ваш email будь ласка",
+      "enter_valid_email_please": "Введіть валідний email будь ласка"
+    },
+    "orderList": {
+      "yours_order": "Ваше замовлення",
+      "total_price": "Загальна вартість",
+      "uan": "грн"
+    },
+    "orderItem": {
+      "pcs": "шт",
+      "uan": "грн"
+    }
+  },
+  "favoritePage": {
+    "my_favorite_products": "Мої улюбленні товари",
+    "no_added_products": "Немає доданих товарів"
+  },
+  "loginPage": {
+    "name": "Ім'я",
+    "sign_in": "Вхід",
+    "registration": "Регістрація",
+    "enter_your_name_please": "Введіть Ваше ім'я будь ласка",
+    "enter_your_email_please": "Введіть Ваш email будь ласка",
+    "enter_your_password_please": "Введіть пароль будь ласка",
+    "forgot_password": "Забули пароль",
+    "remember_me": "Запам'ятати мене",
+    "confirm": "Підтвердити"
+  },
+  "resetPasswordPage": {
+    "reset_password_form": "Форма для сбросу пароля",
+    "enter_your_email_please": "Введіть ваш email будь ласка",
+    "enter_valid_email_please": "Введіть валідний email будь ласка",
+    "reset_password": "Скинути пароль"
+  },
+  "footer": {
+    "contacts": "Контакти",
+    "useful_links": "Корисні посилання",
+    "social_media": "Соціальні мережі",
+    "show_address": "Показати адресу",
+    "call": "Позвонити",
+    "send_email": "Відправити лист",
+    "popular_products": "Популярні товари",
+    "goods": "Товари"
+  },
+  "administrator_panel": "Панель адміністратора"
+}

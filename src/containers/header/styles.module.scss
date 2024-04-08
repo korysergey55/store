@@ -1,0 +1,76 @@
+@import '../../sourses/styles/variables.scss';
+
+.header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 30;
+  border-bottom: 2px solid white;
+  background-color: $brandColor;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+    .mobileMenuWripper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      
+      .wripperLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        .title {
+          margin: auto 20px;
+          font-size: 25px;
+          font-weight: 700;
+          color: white;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .iconMenu {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    .container {
+      flex-direction: row;
+      justify-content: center;
+
+      .mobileMenuWripper {
+        width: auto;
+        .iconMenu {
+          display: none;
+        }
+      }
+
+      .wripperLogo {
+        margin-bottom: 0;
+        .title {
+          margin: 0 20px 5px 10px;
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

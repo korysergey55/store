@@ -1,0 +1,318 @@
+@import '../../../sourses/styles/variables.scss';
+
+.container {
+  width: 100%;
+
+  .goBack {
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 7px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 40px 0;
+
+    .imageWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: relative;
+
+      padding: 0px;
+
+      .gallery {
+        display: none;
+
+        .scrollBtn {
+          width: 95px;
+          height: 30px;
+          margin-bottom: 17px;
+
+          .icon {
+            color: #ffffff;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .img {
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        max-height: 450px;
+      }
+
+      .favorite {
+        position: absolute;
+        top: 1%;
+        left: 87%;
+        z-index: 5;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover .icon {
+          color: rgb(255, 217, 4);
+        }
+        .icon {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 5px;
+          color: rgb(192, 192, 192);
+        }
+      }
+      .favoriteActive {
+        .icon {
+          color: rgb(255, 217, 4);
+        }
+      }
+    }
+    .wripper {
+      max-width: 500px;
+      height: 100%;
+      margin-top: 20px;
+      padding: 20px;
+
+      .title {
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+      .raitWripper {
+        display: flex;
+        justify-content: left;
+
+        .rating {
+          margin-right: 10px;
+        }
+      }
+      .colorsWripper {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        .colors {
+          margin-right: 10px;
+        }
+
+        .colorList {
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          margin-bottom: 10px;
+
+          .colorItem {
+            display: block;
+            min-width: 15px;
+            min-height: 15px;
+            margin-right: 10px;
+            background-color: $brandColor;
+          }
+        }
+      }
+      .description {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+
+        .text {
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+      .price {
+        margin-bottom: 20px;
+        font-size: 22px;
+        font-weight: 700;
+        color: $brandBgColor;
+
+        .sale {
+          margin-left: 10px;
+          font-size: 20px;
+          text-decoration: line-through 2px solid #dc143c;
+          color: grey;
+        }
+      }
+    }
+    .addToCart {
+      width: 150px;
+      margin-right: 10px;
+      border-radius: 7px;
+      color: white;
+      background-color: #32c220;
+      border: none;
+    }
+
+    .btnContainer {
+      display: block;
+      margin-left: 0;
+      margin-bottom: 20px;
+
+      .btn {
+        width: 43px;
+        height: 43px;
+        margin: 0 5px;
+        border: 1px solid #deecf0;
+        background-color: #f6fafb;
+        color: black;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .value {
+        display: inline-block;
+        width: 70px;
+        height: 43px;
+        margin-bottom: 0;
+        border: 1px solid #deecf0;
+        background-color: #f6fafb;
+        color: black;
+      }
+    }
+  }
+  .aboutProduct {
+    margin-top: 40px;
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      max-width: 850px;
+      margin: 0 auto;
+
+      .item {
+        padding-bottom: 22px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #252932;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .active {
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-weight: 500;
+        color: #252932;
+        border-bottom: 3px solid #1890ff;
+      }
+    }
+
+    .text {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 0;
+
+      font-size: 25px;
+      font-weight: 300;
+      color: #6c6c6c;
+    }
+  }
+
+  .viewedContainer {
+    .title {
+      margin-bottom: 40px;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    .content {
+      .imageWrapper {
+        padding: 20px;
+        .gallery {
+          display: flex;
+          flex-direction: column;
+          justify-content: column;
+          align-items: center;
+          gap: 10px;
+
+          max-width: 470px;
+          overflow: hidden;
+
+          .scrollBtn {
+          }
+        }
+
+        .img {
+          width: 500px;
+          object-fit: contain;
+        }
+      }
+      .wripper {
+        .title {
+        }
+        .raitWripper {
+          .rating {
+          }
+        }
+        .colorsWripper {
+          .colors {
+          }
+
+          .colorList {
+            .colorItem {
+            }
+          }
+        }
+        .description {
+        }
+        .price {
+          .sale {
+          }
+        }
+      }
+      .addToCart {
+      }
+
+      .btnContainer {
+        .btn {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .value {
+        }
+      }
+    }
+    .aboutProduct {
+      .list {
+        .item {
+          margin-right: 20px;
+        }
+        .active {
+        }
+      }
+
+      .text {
+      }
+    }
+  }
+}

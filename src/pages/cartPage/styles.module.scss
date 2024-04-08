@@ -1,0 +1,24 @@
+@import '../../sourses/styles/variables.scss';
+
+.cartPage {
+  display: block;
+  width: 100%;
+  // background-color: ghostwhite;
+  // background-image: url('../../sourses/images/cart/3.jpg');
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: contain;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1600px;
+    min-height: 620px;
+    margin: 0 auto;
+    padding: 20px 15px;
+  }
+}

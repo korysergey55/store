@@ -1,0 +1,81 @@
+@import '../../../sourses/styles/variables.scss';
+
+.wripper {
+  width: 100%;
+  .reachUs {
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    font-family: Barlow;
+    background-color: $brandBgColor;
+
+    .title {
+      margin-bottom: 0;
+      font-size: 45px;
+      font-weight: 500;
+      text-align: center;
+      color: #f6fafb;
+    }
+
+    .list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 40px;
+
+      padding: 40px 0;
+      .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .iconContainer {
+          display: block;
+          min-width: 50px;
+
+          .icon {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        .linkContainer {
+          width: 190px;
+          margin-left: 20px;
+          
+          .link {
+            display: block;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: left;
+            color: #f6fafb;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .wripper {
+    .reachUs {
+      .list {
+        gap: 50px;
+         padding: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wripper {
+    max-width: 400px;
+    .reachUs {
+      min-height: 530px;
+      margin-bottom: 0;
+      padding: 25px 25px;
+      .title {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

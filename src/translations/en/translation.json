@@ -1,0 +1,190 @@
+{
+  "header": {
+    "main_page": "Main Page",
+    "goods": "Goods",
+    "contacts": "Contacts",
+    "admin_panel": "Admin Panel",
+    "search": "Search",
+    "search_product": "Search product"
+  },
+  "home": {
+    "most_popular_products": "Most popular products",
+    "buyers_recommend": "Buyers recommend",
+    "recommended_products": "Recommended products",
+    "online_products_store": "Online products store",
+    "baner": {
+      "sold": "Sold",
+      "buy": "Buy",
+      "popular_and_trending_products": "Popular and Trending Products"
+    }
+  },
+  "title": {
+    "online_products_store": "Online products store"
+  },
+  "feachers": {
+    "european_brands_and_perfect_quality": "European brands and perfect quality",
+    "we_work_directly_with_suppliers_from_europe": "We work directly with suppliers from Europe",
+    "the_highest_quality_of_delivered_products": "The highest quality of delivered products",
+    "buy": "Buy"
+  },
+  "aboutUs": {
+    "about_us": "About Us",
+    "we_provide_you_the_best_experience": "We provide you the best experience",
+    "description": "Our company is committed to offering products that people can trust. We offer food, recipes and customized solutions for a wide range of segments including restaurants and specialty coffee shops, schools, retail outlets and micro markets, as well as home delivery throughout Ukraine.",
+    "description-2": "Our goal is to connect people through the food they love. We believe that food creates connections—to each other and to the world we share and care about—and those connections enrich our lives.",
+    "to_shop": "To shop"
+  },
+  "differences": {
+    "why_choose_us": "Why choose us",
+    "quality_products": "Quality products",
+    "we_provide_only_certified_products": "We provide only certified products",
+    "online_order": "Online order",
+    "fast_ordering_and_same_day_shipping": "Fast ordering and same day shipping",
+    "fast_delivery": "Fast delivery",
+    "sending_goods_within_an_hour_after_ordering": "Sending goods within an hour after ordering",
+    "24_7_service": "24/7 Service",
+    "our_service_works_around_the_clock": "Our service works around the clock",
+    "to_shop": "To shop"
+  },
+  "partners": {
+    "our_partners": "Our partners"
+  },
+  "subscribe_Form": {
+    "subscribe_and_get_150_uan_on_purchases": "Subscribe and get 150 uan on purchases",
+    "enter_yours_email": "Enter Yours email",
+    "subscribe": "Subscribe"
+  },
+  "productsPage": {
+    "category_of_goods": "Category of goods",
+    "search_product": "Search product",
+    "search": "Search",
+    "filters": {
+      "filter": "Filters",
+      "sort_by_name": "Sort by name",
+      "sort_by_price": "Sort by price",
+      "sort_by_brand": "Sort by brand",
+      "price": "Price",
+      "from": "from",
+      "to": "to",
+      "uan": "uan",
+      "brands": "Вrands",
+      "country_of_manufacture": "Country of manufacture",
+      "packaging": "Packaging",
+      "apply": "Apply"
+    },
+    "productList": {
+      "there_are_no_products_for_this_search": "There are no products for this search",
+      "there_are_no_products": "There are no products"
+    },
+    "productItem": {
+      "uan": "uan",
+      "buy": "Buy"
+    }
+  },
+  "productDatailsPage": {
+    "go_beck": "Go beck",
+    "code_of_product": "Code of product",
+    "rating_scale": "Rating scale",
+    "manufacturer": "Manufacturer",
+    "weight": "Weight",
+    "uan": "uan",
+    "add_to_cart": "Add to cart",
+    "description": "Description",
+    "additional_information": "Information",
+    "reviews": "Reviews",
+    "viewed_products": "Viewed products "
+  },
+  "contactPage": {
+    "directionServiseForm": {
+      "build_route": "Build route",
+      "enter_location": "enter location"
+    },
+    "reach_us": "Reach us",
+    "contactInfo": {
+      "schedule": "Schedule",
+      "phones": "Phones",
+      "email": "Email",
+      "call": "Call",
+      "mon_fri": "Mon-Fri",
+      "sat": "Sat",
+      "sun": "Sun",
+      "day_off": "day off"
+    }
+  },
+  "cart": {
+    "cart": "Cart",
+    "uan": "uan",
+    "make_order": "Make order",
+    "cart_is_empty": "Your cart is empty"
+  },
+  "orderPage": {
+    "making_order": "Making order",
+    "create_order": "Create order",
+    "orderForm": {
+      "your_order": "Your order",
+      "total_price": "Total price",
+      "create_order": "Create order",
+      "contact_information": "Contact information",
+      "name": "Name",
+      "phone": "Phone",
+      "comments": "Comments",
+      "email": "Email",
+      "delivery": "Delivery",
+      "city": "City",
+      "express_delivery": "Express delivery",
+      "new_mail": "New mail",
+      "pickup_from_the_store": "Pickup from the store",
+      "paymant": "Paymant",
+      "payment_upon_receipt": "Payment upon receipt",
+      "card_payment": "Card payment",
+      "pay_now": "Pay now",
+      "is_required": "is required",
+      "enter_yours_name_please": "Enter yours name please",
+      "enter_yours_phone_number_please": "Enter yours phone number please",
+      "enter_yours_city_please": "Enter yours city please",
+      "enter_yours_email_please": "Enter yours email please",
+      "enter_valid_email_please": "Enter valid email please"
+    },
+    "orderList": {
+      "yours_order": "Yours order",
+      "total_price": "Total price",
+      "uan": "uan"
+    },
+    "orderItem": {
+      "pcs": "pcs",
+      "uan": "uan"
+    }
+  },
+  "favoritePage": {
+    "my_favorite_products": "My favorite products",
+    "no_added_products": "No added products"
+  },
+  "loginPage": {
+    "name": "Name",
+    "sign_in": "Sign in",
+    "registration": "Registration",
+    "enter_your_name_please": "Enter your name please",
+    "enter_your_email_please": "Enter your email please",
+    "enter_your_password_please": "Enter your password please",
+    "forgot_password": "Forgot password",
+    "remember_me": "Remember me",
+    "confirm": "Confirm"
+  },
+  "resetPasswordPage": {
+    "reset_password_form": "Reset password form",
+    "enter_your_email_please": "Enter your email please",
+    "enter_valid_email_please": "Enter valid email please",
+    "reset_password": "Reset password"
+  },
+  "footer": {
+    "contacts": "Contacts",
+    "useful_links": "Useful links",
+    "social_media": "Social media",
+    "show_address": "Show address",
+    "call": "Call",
+    "send_email": "Send email",
+    "popular_products": "Popular products",
+    "goods": "Goods"
+  },
+  "administrator_panel": "Administrator Panel"
+}

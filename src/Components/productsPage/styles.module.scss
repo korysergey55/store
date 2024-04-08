@@ -1,0 +1,76 @@
+@import '../../sourses/styles/variables.scss';
+
+.productPage {
+  padding-top: 20px;
+
+  .container {
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .filterWripper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .icon {
+        display: none;
+        margin-right: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .search {
+        display: block;
+        max-width: 500px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+    }
+
+    .wripper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .title {
+      display: block;
+      margin: 10px 0;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+      color: $brandColor;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px) {
+  .productPage {
+    padding-top: 20px;
+
+    .container {
+      max-width: 1600px;
+      min-height: 600px;
+      .filterWripper {
+        .icon {
+          display: block;
+        }
+      }
+
+      .wripper {
+        display: flex;
+        padding-left: 35px;
+      }
+
+      .title {
+        font-size: 35px;
+      }
+    }
+  }
+}
