@@ -20,3 +20,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* .slick-slider {
+  width: 95px;
+  height: 643px;
+}
+.slick-list {
+  width: 95px;
+  height: 643px;
+  list-style: none;
+}
+.slick-track {
+  height: 643px;
+}
+.slick-arrow {
+  width: 95px;
+  height: 30px;
+  margin-top: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border: none;
+  background-color: #9fcb22;
+}
+.slick-arrow:hover {
+  cursor: pointer;
+}
+.slick-next {
+  margin-top: 17px;
+}
+
+#modal-root .slick-slider {
+  width: 400px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#modal-root .slick-list {
+  width: 430px;
+  height: 100px;
+  list-style: none;
+}
+#modal-root .slick-list .slick-track {
+  height: 100px;
+}
+#modal-root .slick-arrow {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+#modal-root .slick-arrow.slick-next {
+  position: absolute;
+  top: 6%;
+  left: 104%;
+}
+
+#modal-root .slick-arrow.slick-prev {
+  position: absolute;
+  top: 6%;
+  left: -11%;
+} */

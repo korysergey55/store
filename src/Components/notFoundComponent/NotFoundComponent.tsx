@@ -13,9 +13,9 @@ interface Iprops {
 const NotFoundComponent = ({ title = 'We Could Not Find Page You`re Looking', img = notFoundImg }: Iprops) => {
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   navigate(pathes.home);
-  // }, []);
+  useEffect(() => {
+    navigate(pathes.home);
+  }, []);
 
   return (
     <div className={styles.container}>

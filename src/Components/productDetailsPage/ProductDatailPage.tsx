@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useStore } from '../../storeMobx';
 import { observer } from 'mobx-react';
+
 import { useNavigate } from 'react-router-dom';
 import { pathes } from '../../utils/pathes';
 

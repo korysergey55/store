@@ -41,7 +41,7 @@
       font-size: 25px;
       font-weight: 700;
       text-align: center;
-      color: $brandColor;
+      color: rgb(62, 62, 62);
 
       &:hover {
         cursor: pointer;
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .productPage {
     padding-top: 20px;
 

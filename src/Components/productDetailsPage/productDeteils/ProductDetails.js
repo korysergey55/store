@@ -106,7 +106,6 @@ const ProductItemDetails = observer(({}) => {
     if (location.state) {
       navigate(location.state.from);
     }
-    // else navigate(`/products/${category}`);
   };
 
   return productById ? (
@@ -132,11 +131,11 @@ const ProductItemDetails = observer(({}) => {
           </a>
           {productById.images && (
             <ul className={styles.gallery}>
-              {/* <Slider {...settings} className={styles.sliderList}> */}
-              {productById.images?.map((item, index) => (
-                <PhotoList item={item} changePhoto={changePhoto} key={index} />
-              ))}
-              {/* </Slider> */}
+              <Slider {...settings} className={styles.sliderList}>
+                {productById.images?.map((item, index) => (
+                  <PhotoList item={item} changePhoto={changePhoto} key={index} />
+                ))}
+              </Slider>
             </ul>
           )}
           <Lightbox

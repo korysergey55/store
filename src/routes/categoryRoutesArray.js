@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-export const categoryRoutesArr = [
+export const categoryRoutesArray = [
   {
     name: 'Все категории',
     path: '/all',

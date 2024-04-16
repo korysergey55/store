@@ -5,14 +5,13 @@ import { observer } from 'mobx-react';
 
 import { Routes, Route } from 'react-router-dom';
 import PrivateRoute from '../../routes/PrivateRoute';
-import CategoryRouts from '../../routes/CategoryRouts';
 import { pathes } from '../../utils/pathes';
+import { categoryRoutesArray } from '../../routes/categoryRoutesArray';
 
 import Header from '../../containers/header/Header';
 import Baner from '../../containers/baner/Baner';
 import Loader from '../../containers/Loader/Loader';
 import Footer from '../../containers/footer/Footer';
-import { categoryRoutesArr } from '../../routes/categoryRoutesArr';
 
 const HomePage = lazy(() => import('../../pages/homePage/HomePage'));
 const ProductsPage = lazy(() => import('../productsPage/ProductsPage'));
@@ -24,8 +23,6 @@ const OrderPage = lazy(() => import('../../pages/orderPage/OrderPage'));
 const AdminPage = lazy(() => import('../adminPage/AdminPage'));
 const LoginPage = lazy(() => import('../auth/LoginPage.js'));
 const NotFoundPage = lazy(() => import('../notFoundComponent/NotFoundComponent'));
-
-const CategoryTest = lazy(() => import('../../Components/productsPage/products/categoryList/CategoryList'));
 
 const App = observer(() => {
   const { ProductsStore } = useStore();
@@ -44,9 +41,8 @@ const App = observer(() => {
         <Routes>
           <Route path={pathes.home} element={<HomePage />} />
           <Route path={pathes.products} element={<ProductsPage />}>
-            {/* <Route path={pathes.products + '/all'} element={<CategoryTest />} /> */}
-            {categoryRoutesArr?.map(({ name, category, path, component: MyComponent }, index) => (
-              <Route key={index} path={`products${path}`} element={<MyComponent />} />
+            {categoryRoutesArray.map(({ category, path, component: MyComponent }, index) => (
+              <Route key={index} path={`/products${path}`} element={<MyComponent category={category} />} />
             ))}
           </Route>
           <Route path={pathes.productDetails} element={<ProductDatailsPage />} />
