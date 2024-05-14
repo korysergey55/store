@@ -76,8 +76,10 @@ const ProductsPage = observer(() => {
             />
           </div>
         )}
-        <div className={styles.wripper}>{showFilters && <Filters />}</div>
-        <Outlet />
+        <div className={styles.wripper}>
+          {showFilters && <Filters />}
+          <Outlet />
+        </div>
         <SubscribeForm />
       </div>
     </div>

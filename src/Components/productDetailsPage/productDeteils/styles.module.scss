@@ -264,6 +264,10 @@
         .img {
           width: 500px;
           object-fit: contain;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
       .wripper {
