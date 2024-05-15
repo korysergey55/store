@@ -277,8 +277,7 @@ const AdminForm = observer(() => {
         >
           <TextArea
             showCount
-            maxLength={100}
-            style={{ height: 120, marginBottom: 24 }}
+            style={{ height: 250, marginBottom: 24 }}
             placeholder="Please input your Product full description!"
             name="fullDescription"
             value={state.fullDescription}
